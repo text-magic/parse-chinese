@@ -1,0 +1,21 @@
+{
+  "name": "parse-chinese",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@types/nlcst": "^2.0.3",
+    "nlcst-to-string": "^4.0.0",
+    "parse-english": "^7.0.0",
+    "unist-util-modify-children": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nlcst-test": "^4.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "prettier": {
+    "printWidth": 100
+  }
+}
